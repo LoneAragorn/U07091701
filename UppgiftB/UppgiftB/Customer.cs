@@ -12,7 +12,7 @@ namespace UppgiftB
 
         public string Enamn { get; set; }
 
-        public int Tel { get; set; }
+        public string Tel { get; set; }
 
         public string Stad { get; set; }
     }

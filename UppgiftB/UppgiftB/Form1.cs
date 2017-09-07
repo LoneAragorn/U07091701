@@ -42,11 +42,11 @@ namespace UppgiftB
         {
             kunder.Add(new Customer() { Fnamn = textBox1.Text,
                                         Enamn = textBox2.Text,
-                                        Tel = int.Parse(textBox3.Text),
+                                        Tel = textBox3.Text,
                                         Stad = textBox4.Text});
             bas.Add(new Customer() { Fnamn = textBox1.Text,
                                      Enamn = textBox2.Text,
-                                     Tel = int.Parse(textBox3.Text),
+                                     Tel = textBox3.Text,
                                      Stad = textBox4.Text});
         }
 
